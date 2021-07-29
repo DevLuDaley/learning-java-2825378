@@ -13,6 +13,6 @@ public class Main {
         Scanner input  = new Scanner(System.in);
         studentGPA = input.nextDouble();
 
-        System.out.println(studentFirstName + " " + studentLastName + " now has a GPA of " + studentGPA);
+        System.out.println(studentFirstName + " " + studentLastName + " nowhas a GPA of " + studentGPA);
     }
 }
