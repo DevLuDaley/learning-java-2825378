@@ -3,7 +3,7 @@ public class Main {
     public static void calculateTotalMealPrice(double listedMealPrice,
                                                double tipRate,
                                                double taxRate
-                                            //    double numOfPeople
+                                               double numOfPeople
                                                ) {
         double tip = tipRate * listedMealPrice;
         double tax = taxRate * listedMealPrice;
