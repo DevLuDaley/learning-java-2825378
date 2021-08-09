@@ -5,7 +5,7 @@ public class Main {
         System.out.println("The employee made " + employeeGrossAnnualSalary + " this year!");
     }
     public static void main(String[] args) {
-        employeeSalaryCalc(40,39,2);
+        employeeSalaryCalc(40,37,2);
     }
 
 }

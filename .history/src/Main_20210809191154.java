@@ -1,11 +1,11 @@
 public class Main {
 
     public static void employeeSalaryCalc(double employeeWeekHours, double employeeHourlyRate, double vacationDaysUsed) {
-        double employeeGrossAnnualSalary = (employeeWeekHours - vacationDaysUsed) * employeeHourlyRate * 52;
+        double employeeGrossAnnualSalary = employeeWeekHours - vacationDaysUsed * employeeHourlyRate * 52;
         System.out.println("The employee made " + employeeGrossAnnualSalary + " this year!");
     }
     public static void main(String[] args) {
-        employeeSalaryCalc(40,39,2);
+        employeeSalaryCalc(40,34,0);
     }
 
 }
